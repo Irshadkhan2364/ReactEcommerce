@@ -1,0 +1,26 @@
+.featureProdcts{
+    margin: 100px 200px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: aqua;
+        margin-bottom: 50px;
+
+        h1{
+            flex: 2;
+            text-transform: capitalize;
+        }
+        p{
+            flex: 3;
+            color: gray;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
